@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(52, 52, 53);
+    color: #fff;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    margin-top: 5rem;
+    /* max-height: 1; */
+}
+
+p {
+    background-color: rgb(243, 186, 0);
+    font-weight: bolder;
+}
+
+.box {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 16rem;
+    background-color: rgb(182, 182, 182);
+    border-style: solid;
+    border-color: rgb(73, 73, 73);
+    border-radius: 8px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
